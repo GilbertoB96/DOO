@@ -1,0 +1,94 @@
+<!doctype html> <!-- Declaración del tipo de documento. La palabra "html" indica que se utiliza la versión 5. -->
+
+<html lang="es"> <!--lang=es indica que la página contiene información en español-->
+
+	<!-- Referencias, titulo en el navegador, configuraciones, etc. -->
+	<head>
+		<link rel="stylesheet" href="style.css" /> <!-- referencia de estilos -->
+		<title>Ejemplo de HTML</title>
+	</head>
+
+	<!-- Contenido de la página. i.e: lo visible para las personas -->
+	<body>
+		<header>
+			<!-- Agrupacion de encabezados -->
+			<hgroup>
+				<h1>Diseño Orientado a Objetos</h1>
+				<h2>Licenciatura en Seguridad de T.I.</h2>
+			</hgroup>
+		</header>
+
+
+		<!-- Menu de usuario -->
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Inicio</a>
+				</li>
+				<li>
+					<a href="#" >Menu 1</a>
+				</li>
+				<li>
+					<a href="#" >Menu 2</a>
+				</li>
+				<li>
+					<a href="#" >Menu 3</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Contenido principal -->
+		<article>
+ <header>
+  <h1> Asignación de la Semana 1</h1>
+ </header>
+
+ <p>
+  Construir la página actual haciendo uso de HTML5 y CSS 3.
+ </p>
+
+ <section>
+  <header>
+   <h1>Este es el encabezado de la primer sección</h1>
+  </header>
+  <p>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+ </section>
+
+ <section>
+
+  <header>
+   <h1>Segunda sección: "mark", "aside", botón e imagen</h1>
+  </header>
+
+  <p class="next-to-aside">
+  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <mark>laudantium, totam rem aperiam</mark>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+   <br /> <!-- salto de lnea -->
+  </p>
+
+  <aside>
+   <p>Este es un aside que contiene multiples lineas. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+  </aside>
+
+  <div>
+   <button type="button" onClick="javascript:alert('Ejemplo de alert')">Botón 1</button>
+  </div>
+
+  <figure>
+   <img src="http://tasp.fcfm.uanl.mx/images/footer/fcfm.png" alt="Logo FCFM" width="200" height="100">
+   <figcaption>Figura 1.</figcaption>
+  </figure>
+
+ </section>
+
+</article>
+
+		<!-- pie de página -->
+		<footer>
+			<p>
+				Pie de página con un margin-top de 24px
+			</p>
+		</footer>
+	</body>
+</html>
